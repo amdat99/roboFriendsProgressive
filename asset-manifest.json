@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/roboFriendsProgressive/static/css/main.1b81f4db.chunk.css",
-    "main.js": "/roboFriendsProgressive/static/js/main.c437d5a6.chunk.js",
-    "main.js.map": "/roboFriendsProgressive/static/js/main.c437d5a6.chunk.js.map",
+    "main.css": "/roboFriendsProgressive/static/css/main.685d6551.chunk.css",
+    "main.js": "/roboFriendsProgressive/static/js/main.12ac8c8d.chunk.js",
+    "main.js.map": "/roboFriendsProgressive/static/js/main.12ac8c8d.chunk.js.map",
     "runtime-main.js": "/roboFriendsProgressive/static/js/runtime-main.606374f2.js",
     "runtime-main.js.map": "/roboFriendsProgressive/static/js/runtime-main.606374f2.js.map",
     "static/css/2.31461e4f.chunk.css": "/roboFriendsProgressive/static/css/2.31461e4f.chunk.css",
@@ -14,7 +14,7 @@
     "service-worker.js": "/roboFriendsProgressive/service-worker.js",
     "service-worker.js.map": "/roboFriendsProgressive/service-worker.js.map",
     "static/css/2.31461e4f.chunk.css.map": "/roboFriendsProgressive/static/css/2.31461e4f.chunk.css.map",
-    "static/css/main.1b81f4db.chunk.css.map": "/roboFriendsProgressive/static/css/main.1b81f4db.chunk.css.map",
+    "static/css/main.685d6551.chunk.css.map": "/roboFriendsProgressive/static/css/main.685d6551.chunk.css.map",
     "static/js/2.c488f755.chunk.js.LICENSE.txt": "/roboFriendsProgressive/static/js/2.c488f755.chunk.js.LICENSE.txt",
     "static/media/App.css": "/roboFriendsProgressive/static/media/SEGA.47b4bfa9.woff"
   },
@@ -22,7 +22,7 @@
     "static/js/runtime-main.606374f2.js",
     "static/css/2.31461e4f.chunk.css",
     "static/js/2.c488f755.chunk.js",
-    "static/css/main.1b81f4db.chunk.css",
-    "static/js/main.c437d5a6.chunk.js"
+    "static/css/main.685d6551.chunk.css",
+    "static/js/main.12ac8c8d.chunk.js"
   ]
 }
