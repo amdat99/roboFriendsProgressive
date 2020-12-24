@@ -85,21 +85,21 @@ const onSearchChange = (event) => { // search change funtion with hooks redux
 const filteredRobots = robots.filter(robot =>{
     return robot.name.toLowerCase().includes(searchField.toLowerCase());
     })
-     if (isPending) 
-     return <h1>Loading</h1> 
-      if(!isFailed) return(
-        <div className='tc'>
-          <Header />
-       {   // <button onClick= {()=>setCount(count+1)}> counter</button>
-     }
-          <SearchBox searchChange={onSearchChange}/>
-          <Scroll>
+      
+
+   return (
+      <div className='tc'>
+        <Header />
+        <SearchBox searchChange={onSearchChange}/>
+        <Scroll>
+          { isPending ? <h1>Loading</h1> :
             <ErrorBoundry>
               <CardList robots={filteredRobots} />
             </ErrorBoundry>
-          </Scroll>
-        </div>
-      );
+          }
+        </Scroll>
+      </div>
+    );
   }
 
 
