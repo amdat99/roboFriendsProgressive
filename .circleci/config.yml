@@ -1,23 +1,31 @@
 version: 2.1
 jobs:
-  bobby:
-    docker:
-      - image: circleci/node:latest
-       
-    steps:
-      - checkout
-      - run: echo "this is the build job"
-
-  sally:
-    docker:
-      - image: circleci/node:latest
-    steps:
-      - checkout
-      - run: echo "Doouble trouble"
+   build:
+     docker:
+       - image: circleci/node:latest
+     steps:
+       - checkout
+       - run: npm install
+       - run: npm run build
+   test:
+     docker:
+       - image: circleci/node:latest
+     steps:
+       - checkout
+       - run: npm install
+       - run: npm run test
+   hithere:
+     docker:
+       - image: circleci/node:latest
+     steps:
+       - checkout
+       - run: echo "Hellloooo!"
 workflows:
   version: 2
-  bobby_sally:
+  build-test-and-lint:
     jobs:
-      - bobby
-      - sally
-     
+      - build
+      - hithere
+      - test:
+          requires:
+            - hithere
