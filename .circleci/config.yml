@@ -1,8 +1,8 @@
-version: 2.0
+version: 2.1
 jobs:
   bobby:
     docker:
-      - image: circleci/ruby:2.5.1-node-browsers
+      - image: circleci/node:latest
        
     steps:
       - checkout
@@ -10,12 +10,12 @@ jobs:
 
   sally:
     docker:
-      - image: circleci/ruby:2.5.1-node-browsers
+      - image: circleci/node:latest
     steps:
       - checkout
       - run: echo "Doouble trouble"
 workflows:
-  version: 2.0
+  version: 2
   bobby_sally:
     jobs:
       - bobby
