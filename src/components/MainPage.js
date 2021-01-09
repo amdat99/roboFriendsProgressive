@@ -35,7 +35,7 @@ class MainPage extends Component{
  }
 
   render(){
- const {searchField, onSearchChange, robots, isPending} = this.props; // assigning with redux classes
+ const { onSearchChange, isPending} = this.props; // assigning with redux classes
 
 // const filteredRobots = robots.filter(robot =>{
 //     return robot.name.toLowerCase().includes(searchField.toLowerCase());
