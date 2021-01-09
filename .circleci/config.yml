@@ -2,10 +2,9 @@ version: 2.0
 jobs:
   build:
     docker:
-      - image: cimg/ruby:2.7.1-node
+      - image: circleci/ruby:2.5.1-node-browsers
        
     steps:
       - checkout
       - run: echo "this is the build job"
-      - store_test_results:
-          path: test-results
+     
