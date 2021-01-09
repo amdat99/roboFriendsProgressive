@@ -133,7 +133,7 @@ it('create an action to search robots', () => {
  
         expect(action[0].type).toEqual(REQUEST_ROBOTS_PENDING)
         
-        expect(action[1].type).toEqual(REQUEST_ROBOTS_FAILED)
+        expect(action[1].type).toEqual(REQUEST_ROBOTS_SUCCESS)
         
     })
 
