@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`filters robots correcty 1`] = `
+<div
+  className="tc"
+>
+  <Header />
+  <SearchBox />
+  <Scroll>
+    <ErrorBoundry>
+      <CardList
+        robots={Array []}
+      />
+    </ErrorBoundry>
+  </Scroll>
+</div>
+`;
+
+exports[`recieves loading html if is pending true 1`] = `
+<div
+  className="tc"
+>
+  <Header />
+  <SearchBox />
+  <Scroll>
+    <h1>
+      Loading
+    </h1>
+  </Scroll>
+</div>
+`;
+
+exports[`renders mainpage without crashing 1`] = `
+<div
+  className="tc"
+>
+  <Header />
+  <SearchBox />
+  <Scroll>
+    <ErrorBoundry>
+      <CardList
+        robots={Array []}
+      />
+    </ErrorBoundry>
+  </Scroll>
+</div>
+`;

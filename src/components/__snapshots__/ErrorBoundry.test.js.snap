@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ecpect should component update to return false 1`] = `""`;
+
+exports[`expect  componentDidCatch to return true 1`] = `""`;
+
+exports[`expect to render ErrorBoundry component 1`] = `""`;
